@@ -32,8 +32,16 @@ aside .logo-menu ul {
 aside li>a {
     color: #8b8d8f;
     text-decoration: none;
-    margin-left: 20px;
+    padding-left: 20px;
     padding-top: 20px;
+}
+
+aside li>a:hover {
+    color: white;
+}
+
+aside .logo-menu li>a:hover {
+    border-left: 5px solid green;
 }
 
 aside .logo-menu i {
@@ -86,8 +94,11 @@ aside .coda-aside {
 }
 
 aside .install {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
 
+aside .install span {
+    padding-left: 10px;
 }
 
 aside .install a {
@@ -116,13 +127,55 @@ aside .user span {
     padding-top: 10px;
 }
 
+/*-- media query aside --*/
+
+@media screen and (max-width: 768px) {
+    aside {
+        width: 50px;
+    }
+    aside span {
+        display: none;
+    }
+    aside h3 {
+        display: none;
+    }
+    aside .crea-playlist {
+        display: none;
+    }
+    aside .logo-menu img {
+        display: none;
+    }
+}
+
 header {
     height: 75px;
     width: calc(100% - 275px);
     background-color: #0b0b26;
+    display: flex;
+    justify-content: flex-end;
     position: fixed;
     top: 0;
     left: 275px;
+}
+
+
+header button {
+    width: 200px;
+    height: 40px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid white;
+    background-color: #0b0b26;
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+    transition: 0.2s;
+}
+
+header button:hover {
+    width: 220px;
+    height: 50px;
 }
 
 footer {
