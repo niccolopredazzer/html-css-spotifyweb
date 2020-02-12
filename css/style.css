@@ -217,6 +217,13 @@ footer .centro i:nth-child(3) {
     font-size: 30px;
 }
 
+footer .centro .sotto {
+    width: 320px;
+    height: 2px;
+    background: black;
+    margin-top: 10px;
+}
+
 footer .destra i {
     color: white;
 }
