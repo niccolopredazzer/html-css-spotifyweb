@@ -178,6 +178,13 @@ header button:hover {
     height: 50px;
 }
 
+main {
+    height: 5000px; /*-- da elimilare --*/
+    width: calc(100% - 275px);
+    background-color: #121417;
+    margin-left: 275px;
+}
+
 footer {
     height: 75px;
     width: 100%;
