@@ -222,6 +222,23 @@ footer .centro .sotto {
     height: 2px;
     background: black;
     margin-top: 10px;
+    position: relative;
+}
+
+footer .centro .sotto::before {
+    content: "0:25";
+    display: inline-block;
+    position: absolute;
+    left: -30px;
+    transform: translateY(-50%);
+}
+
+footer .centro .sotto::after {
+    content: "4.30";
+    display: inline-block;
+    position: absolute;
+    right: -30px;
+    transform: translateY(-50%);
 }
 
 footer .destra i {
