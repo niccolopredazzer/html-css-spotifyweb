@@ -11,7 +11,7 @@
 }
 
 aside {
-    width: 300px;
+    width: 275px;
     height: calc(100% - 75px);
     background-color: black;
     position: fixed;
@@ -19,16 +19,31 @@ aside {
     left: 0;
 }
 
-
 .logo-menu img {
     width: 200px;
     margin-left: 20px;
     margin-top: 10px;
 }
 
+aside .logo-menu ul {
+    margin-top: 20px;
+}
 
 aside .logo-menu li>a {
-    color: white;
+    color: lightgrey;
     text-decoration: none;
     margin-left: 20px;
+}
+
+aside .logo-menu span {
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+footer {
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #4f4f54;
 }
