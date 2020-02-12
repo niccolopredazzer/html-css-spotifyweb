@@ -29,15 +29,64 @@ aside .logo-menu ul {
     margin-top: 20px;
 }
 
-aside .logo-menu li>a {
-    color: lightgrey;
+aside li>a {
+    color: #8b8d8f;
     text-decoration: none;
     margin-left: 20px;
+    padding-top: 20px;
+}
+
+aside .logo-menu i {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-right: 3px;
 }
 
 aside .logo-menu span {
-    font-size: 22px;
+    font-size: 20px;
     padding-left: 10px;
+}
+
+aside h3 {
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+aside .playlist li {
+    padding-top:20px;
+}
+
+.crea-playlist {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+aside .crea-playlist span {
+    padding-left: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #8b8d8f;
+    position: relative;
+    bottom: 6px;
+}
+
+aside .crea-playlist a {
+    text-decoration: none;
+}
+
+aside .playlist i {
+    font-size: 30px;
+    color: #8b8d8f;
+}
+
+header {
+    height: 75px;
+    width: calc(100% - 275px);
+    background-color: #0b0b26;
+    position: fixed;
+    top: 0;
+    left: 275px;
 }
 
 footer {
