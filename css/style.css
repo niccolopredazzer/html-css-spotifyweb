@@ -80,6 +80,42 @@ aside .playlist i {
     color: #8b8d8f;
 }
 
+aside .coda-aside {
+    position: relative;
+    top: 400px;
+}
+
+aside .install {
+    margin-bottom: 20px;
+
+}
+
+aside .install a {
+    margin-left: 20px;
+    color: #8b8d8f;
+    text-decoration: none;
+}
+
+aside .user {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 1px solid #8b8d8f;
+}
+
+aside .user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding-top: 10px;
+}
+
+aside .user span {
+    color: white;
+    position: relative;
+    bottom: 6px;
+    padding-top: 10px;
+}
+
 header {
     height: 75px;
     width: calc(100% - 275px);
