@@ -18,3 +18,17 @@ aside {
     top: 0;
     left: 0;
 }
+
+
+.logo-menu img {
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+aside .logo-menu li>a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
