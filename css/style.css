@@ -192,3 +192,31 @@ footer {
     bottom: 0;
     background-color: #4f4f54;
 }
+
+footer .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer i:hover {
+    cursor: pointer;
+}
+
+footer .sinistra i {
+    color: #8b8d8f;
+}
+
+footer .centro i {
+    font-size: 20px;
+    padding: 5px 20px;
+    color: white;
+}
+
+footer .centro i:nth-child(3) {
+    font-size: 30px;
+}
+
+footer .destra i {
+    color: white;
+}
