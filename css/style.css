@@ -198,6 +198,12 @@ main  h2 {
     padding-top: 40px;
     padding-left: 20px;
     color: white;
+
+}
+
+main  h2:hover {
+    cursor: pointer;
+
 }
 
 main .card {
@@ -277,8 +283,8 @@ main .quarta-row {
 main .quinta-row {
     display: flex;
     flex-wrap:
-
 }
+
 
 /*-- footer --*/
 
