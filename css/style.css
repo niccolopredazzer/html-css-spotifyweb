@@ -249,6 +249,7 @@ main .card:hover .overlay {
 
 main .card-text p:nth-child(1) {
     color: white;
+    padding-top: 10px;
 }
 
 main .card-text p:nth-child(2) {
@@ -259,6 +260,11 @@ main .titolo p {
     color: #8b8d8f;
     font-size: 14px;
     margin-left: 20px;
+}
+
+main .terza-row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /*-- footer --*/
