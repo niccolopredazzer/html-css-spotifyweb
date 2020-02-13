@@ -127,25 +127,6 @@ aside .user span {
     padding-top: 10px;
 }
 
-/*-- media query aside --*/
-
-@media screen and (max-width: 768px) {
-    aside {
-        width: 50px;
-    }
-    aside span {
-        display: none;
-    }
-    aside h3 {
-        display: none;
-    }
-    aside .crea-playlist {
-        display: none;
-    }
-    aside .logo-menu img {
-        display: none;
-    }
-}
 
 header {
     height: 75px;
@@ -274,4 +255,34 @@ footer .destra i {
 .slider:hover {
   opacity: 1;
   cursor: pointer;
+}
+
+/*-- media query aside --*/
+
+@media screen and (max-width: 768px) {
+    aside {
+        width: 50px;
+    }
+    aside span {
+        display: none;
+    }
+    aside h3 {
+        display: none;
+    }
+    aside .crea-playlist {
+        display: none;
+    }
+    aside .logo-menu img {
+        display: none;
+    }
+    header {
+        width: calc(100% - 50px);
+        position: fixed;
+        top: 0;
+        left: 50px;
+    }
+    main {
+        width: calc(100% - 50px);
+        margin-left: 50px;
+    }
 }
