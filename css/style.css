@@ -308,6 +308,26 @@ footer i:hover {
 
 footer .sinistra i {
     color: #8b8d8f;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+footer .riproduzione {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+footer .sinistra p {
+    padding-top: 15px;
+    padding-right: 10px;
+    color: #8b8d8f;
+}
+
+footer .riproduzione img {
+    width: 50px;
+    height: 50px;
 }
 
 footer .centro i {
@@ -326,7 +346,7 @@ footer .centro i:nth-child(3):active {
 }
 
 footer .centro {
-    margin-left: 90px;
+    margin-left: 70px;
 }
 
 footer .centro .sotto {
