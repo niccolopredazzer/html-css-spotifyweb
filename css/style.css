@@ -41,7 +41,7 @@ aside li>a:hover {
 }
 
 aside .logo-menu li>a:hover {
-    border-left: 5px solid green;
+    border-left: 5px solid lightgreen;
 }
 
 aside .logo-menu i {
@@ -127,6 +127,7 @@ aside .user span {
     padding-top: 10px;
 }
 
+/*-- header --*/
 
 header {
     height: 75px;
@@ -159,6 +160,8 @@ header button:hover {
     height: 50px;
 }
 
+/*-- main --*/
+
 main {
     height: 5000px; /*-- da elimilare --*/
     width: calc(100% - 275px);
@@ -170,12 +173,12 @@ main {
 main .prima-row ul {
     display: flex;
     justify-content: center;
-    justify-content: space-around;
     list-style: none;
     padding-top: 50px;
 }
 
 main .prima-row li>a {
+    padding: 10px;
     color: #8b8d8f;
     text-decoration: none;
 }
@@ -189,8 +192,6 @@ main .seconda-row h2 {
     padding-left: 20px;
     color: white;
 }
-
-
 
 
 /*-- footer --*/
@@ -230,6 +231,10 @@ footer .centro i:nth-child(3) {
 
 footer .centro i:nth-child(3):active {
 
+}
+
+footer .centro {
+    margin-left: 90px;
 }
 
 footer .centro .sotto {
@@ -275,6 +280,7 @@ footer .destra i {
   width: 100px;
   height: 5px;
   background: #d3d3d3;
+  margin-right: 10px;
   outline: none;
   opacity: 0.7;
   -webkit-transition: .2s;
