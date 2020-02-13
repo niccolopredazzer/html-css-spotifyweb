@@ -187,10 +187,62 @@ main .prima-row li>a:hover {
     border-bottom: 1px solid lightgreen;
 }
 
+main .seconda-row {
+
+
+}
+
 main .seconda-row h2 {
     padding-top: 40px;
     padding-left: 20px;
     color: white;
+}
+
+main .card {
+    width: 125px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+main .card-image {
+    position: relative;
+}
+
+main .overlay {
+      position: absolute;
+      bottom: 0;
+      background: rgb(0, 0, 0);
+      background: rgba(0, 0, 0, 0.5);
+      color: #f1f1f1;
+      width: 100%;
+      height: 100%;
+      transition: .5s ease;
+      opacity:0;
+      color: white;
+      font-size: 20px;
+      padding: 20px;
+      text-align: center;
+    }
+
+main .card img {
+    display: block;
+}
+
+main .card i {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+    transition-duration: 0.2s;
+}
+
+main .card:hover .overlay {
+    opacity: 1;
 }
 
 
