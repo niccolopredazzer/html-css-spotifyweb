@@ -165,7 +165,7 @@ header button:hover {
 /*-- main --*/
 
 main {
-    height: 5000px; /*-- da elimilare --*/
+    height: 3000px; /*-- da elimilare --*/
     width: calc(100% - 275px);
     background-color: #121417;
     margin-left: 275px;
@@ -282,7 +282,7 @@ main .quarta-row {
 
 main .quinta-row {
     display: flex;
-    flex-wrap:
+    flex-wrap: wrap;
 }
 
 
