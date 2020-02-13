@@ -172,13 +172,13 @@ main {
 
 main .prima-row ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     list-style: none;
     padding-top: 50px;
 }
 
 main .prima-row li>a {
-    padding: 10px;
     color: #8b8d8f;
     text-decoration: none;
 }
@@ -188,22 +188,22 @@ main .prima-row li>a:hover {
 }
 
 main .seconda-row {
-
-
+    display: flex;
+    flex-wrap: wrap;
 }
 
-main .seconda-row h2 {
+main  h2 {
     padding-top: 40px;
     padding-left: 20px;
     color: white;
 }
 
 main .card {
-    width: 125px;
+    width: 175px;
     text-align: center;
     overflow: hidden;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 main .card-image {
@@ -227,11 +227,12 @@ main .overlay {
     }
 
 main .card img {
+    width: 100%;
     display: block;
 }
 
 main .card i {
-    font-size: 30px;
+    font-size: 50px;
     color: white;
     position: absolute;
     top: 50%;
@@ -243,8 +244,22 @@ main .card i {
 
 main .card:hover .overlay {
     opacity: 1;
+    cursor: pointer;
 }
 
+main .card-text p:nth-child(1) {
+    color: white;
+}
+
+main .card-text p:nth-child(2) {
+    color: #8b8d8f;
+}
+
+main .titolo p {
+    color: #8b8d8f;
+    font-size: 14px;
+    margin-left: 20px;
+}
 
 /*-- footer --*/
 
