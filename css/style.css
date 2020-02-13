@@ -133,6 +133,8 @@ header {
     height: 75px;
     width: calc(100% - 275px);
     background-color: #0b0b26;
+    z-index: 10;
+    opacity: 1;
     display: flex;
     justify-content: flex-end;
     position: fixed;
@@ -267,6 +269,17 @@ main .terza-row {
     flex-wrap: wrap;
 }
 
+main .quarta-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .quinta-row {
+    display: flex;
+    flex-wrap:
+
+}
+
 /*-- footer --*/
 
 footer {
@@ -313,9 +326,13 @@ footer .centro {
 footer .centro .sotto {
     width: 320px;
     height: 2px;
-    background: black;
+    background: lightgray;
     margin-top: 10px;
     position: relative;
+}
+
+footer .centro .sotto:hover {
+    cursor: pointer;
 }
 
 footer .centro .sotto::before {
