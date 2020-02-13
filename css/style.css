@@ -253,7 +253,7 @@ footer .destra  {
 
 footer .destra i {
     color: white;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 .slidecontainer {
@@ -273,4 +273,5 @@ footer .destra i {
 
 .slider:hover {
   opacity: 1;
+  cursor: pointer;
 }
